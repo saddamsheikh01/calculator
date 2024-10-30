@@ -1,0 +1,30 @@
+.calculator { background-color: rgb(0, 0, 0);
+    padding: 50px 50px 50px 55px;
+    width: 200px;
+    margin: 0 auto;
+    text-align: center; 
+    border-radius: 30px;
+    margin-top: 100px;
+    
+}
+
+.display {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    color: brown;
+}
+
+button {
+    color: rgb(123, 255, 0);
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    background-color: rgb(255, 0, 0);
+}
